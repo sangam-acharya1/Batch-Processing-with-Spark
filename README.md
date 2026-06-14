@@ -55,12 +55,5 @@ This project demonstrates a scalable batch processing workflow using Apache Spar
 
 ---
 
-## Setup Instructions
 
-### 1. Install Java (Required for Spark)
-
-Spark runs on JVM, so Java is required.
-
-```bash
-java -version
 
