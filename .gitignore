@@ -1,0 +1,19 @@
+# Data
+data/
+*.csv
+*.csv.gz
+*.parquet
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
