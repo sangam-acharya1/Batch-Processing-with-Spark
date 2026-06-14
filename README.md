@@ -1,38 +1,66 @@
-# 🚀 Batch Processing with Spark
+# Batch Processing with Spark
 
-A hands-on project demonstrating large-scale data processing using **PySpark**. This project processes millions of NYC taxi trip records efficiently using distributed computing.
-
----
-
-## 📌 What I Learned
-
-This project helped me understand how big data processing works in real-world systems using Apache Spark.
-
-✅ Set up PySpark and created Spark sessions  
-✅ Read and processed Parquet files at scale  
-✅ Repartitioned data for better performance  
-✅ Analyzed 4M+ taxi trip records using Spark DataFrames  
-✅ Used Spark UI for monitoring and debugging jobs  
+A large-scale batch data processing project built using **Apache Spark (PySpark)** to analyze millions of NYC Taxi trip records efficiently using distributed computing.
 
 ---
 
-## ⚡ Project Highlights
+## Project Overview
 
-- Processed **4 million+ taxi trip records**
-- Used **distributed computing with Spark**
-- Optimized data processing using partitioning
-- Performed real-world data analysis at scale
+This project demonstrates a scalable batch processing workflow using Apache Spark that:
 
----
-
-## 🛠️ Tech Stack
-
-- Python   
-- Apache Spark (PySpark) ⚡  
-- Parquet File Format 📊  
-- Jupyter Notebook / CLI  
+- Processes large NYC Taxi datasets (4M+ records)
+- Uses Spark DataFrames for distributed computation
+- Reads data from Parquet format for high performance
+- Applies data cleaning and transformation at scale
+- Optimizes processing using partitioning techniques
+- Demonstrates Spark execution and monitoring using Spark UI
 
 ---
 
 
+---
+
+## Tech Stack
+
+- Python
+- Apache Spark (PySpark)
+- Parquet File Format
+- Jupyter Notebook / VS Code
+
+---
+
+
+---
+
+## Features
+
+### Data Processing
+- Loads large-scale NYC Taxi datasets
+- Reads Parquet files efficiently
+- Applies filtering and transformations using DataFrames
+
+### Performance Optimization
+- Uses repartitioning for distributed execution
+- Optimizes Spark job execution
+
+### Analytics
+- Aggregates trip-level insights
+- Handles multi-million record datasets efficiently
+
+### Monitoring
+- Uses Spark UI to track:
+  - Jobs
+  - Stages
+  - Task execution
+
+---
+
+## Setup Instructions
+
+### 1. Install Java (Required for Spark)
+
+Spark runs on JVM, so Java is required.
+
+```bash
+java -version
 
